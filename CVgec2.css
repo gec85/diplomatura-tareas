@@ -1,0 +1,14 @@
+/*  version 2 de estilos para html CV gec*/
+
+#caja{
+    background: linear-gradient(158deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);
+    box-shadow: 10px 10px 10px black;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding: 30px;
+    width: max-content;
+    border: 2px solid black;
+}

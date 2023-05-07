@@ -1,0 +1,54 @@
+
+
+h1 {
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    margin-top: 0cqmax;
+    margin-bottom: 0px;
+    margin-right: 0cqmax;
+    margin-left: 0cqmax;
+    text-align: center;
+    padding: 25px;
+}
+
+/*primer segmento de uso de bootstrap*/
+
+h3 {
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: dodgerblue;
+    margin-top: 0cqmax;
+    margin-bottom: 0px;
+    margin-right: 0cqmax;
+    margin-left: 0cqmax;
+    padding: 25px;
+}
+
+.row{
+    background-color: cornflowerblue;
+    color: azure;
+    font-size: 25px;
+}
+
+/*segundo segmento de uso de bootstrap*/
+
+.accordion-body{
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+strong{
+    color: blue;
+    font-size: 25px;
+}
+
+
+
+
+
+    
+    

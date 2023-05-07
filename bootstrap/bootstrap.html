@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Curriculum Vitae</h1>
+    <h1>Contreras Gastón Eduardo</h1>
+    <h3>Historial laboral:</h3>
+
+    <!--primer morfotipo-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                Trabajos actuales:
+                <ul>
+                    <li>Clínica Francesa
+                        <a href="https://clinicafrancesa.com.ar/especialidades/" target="_blank">Clinica Francesa</a>
+                    </li>
+                    <li>OSPELSYM 
+                        <a href="https://www.ospelsym.com.ar/principal.html" target="_blank">OSPELSYM</a>
+                    </li>
+                    <li>Maipumed
+                        <a href="http://maipumed.com/" target="_blank">MAIPUMED</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                Trabajos previos:
+                <ul>
+                    <li>Clínica Santa Clara
+                    </li>
+                    <li>Clínica Santa María
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                Trabajos futuros:
+                <ul>
+                    <li>Programación web full stack con React JS
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<!--segundo morfotipo-->
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <strong>Trabajos actuales:</strong>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <ul>
+                <li>Clínica Francesa; en Staff del Servicio de Ortopedia y Traumatología, realizando actividades de guardia activa, consultorios (ART, Obras sociales y Prepagas); tratamientos quirúrgicos en la especialidad; desde junio del 2011 hasta la actualidad
+                    <a href="https://clinicafrancesa.com.ar/especialidades/" target="_blank">Clinica Francesa</a>
+                </li>
+                <li>OSPELSYM (Obra Social Del Personal de Empresa de Limpieza Servicio y Maestranza); realizando actividades de consultorios (prestador) y tratamientos quirúrgicos en la especialidad; desde junio del 2014 hasta la actualidad
+                    <a href="https://www.ospelsym.com.ar/principal.html" target="_blank">OSPELSYM</a>
+                </li>
+                <li>Consultorio Maipumed; realizando actividad de consultorio externo, desde noviembre del 2017 hasta la actualidad
+                    <a href="http://maipumed.com/" target="_blank">MAIPUMED</a>
+                </li>
+            </ul>   
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <strong>Trabajos futuros:</strong>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            Programación web full stack con React JS
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="alert alert-danger" role="alert">
+    Para contactarte conmigo completa el siguiente formulario
+</div>
+
+<div class="row g-3">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="nombre" aria-label="nombre">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="apellido" aria-label="apellido">
+    </div>
+    <p>
+        <input type="submit" value="ENVIAR">
+    </p>
+</div>
+
+
+
+
+                
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
